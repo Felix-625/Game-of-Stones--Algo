@@ -1,1 +1,3 @@
 # Game-of-Stones--Algo
+
+This C++ code solves the Game of Stones problem, where two players take turns removing 2, 3, or 5 stones from a pile, and the player unable to make a move loses. The function gameOfStones uses a pattern based on the modulus of 7: if the number of stones n is divisible by 7 or leaves a remainder of 1 when divided by 7, the second player will win; otherwise, the first player has a winning strategy. The `main` function reads multiple test cases, trims and parses input using helper functions, and writes the result ("First" or "Second") to the output. The logic is based on game theory and efficiently determines the winner without simulating each move.
